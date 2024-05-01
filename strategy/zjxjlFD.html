@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>玖趣游戏盒子</title>
+    <!-- 引入Bootstrap CSS -->
+    <link rel="stylesheet" href="../static/plugins/bootstrap-4.6.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/index.css">
+    <style>
+        #strategy_box span {
+            color: #C63520;
+        }
+
+        .CDK_box{
+            margin: 10px;
+        }
+
+        p{
+            font-size: small;
+        }
+
+        img{
+            width: 100%;
+        }
+
+        .content{
+            margin: 10px;
+        }
+
+        .bottom_block{
+            height: 70px;
+        }
+    </style>
+    </style>
+</head>
+
+<body>
+    <!-- 顶部导航栏 -->
+    <div class="container-fluid top_nav">
+        <img class="top_logo" src="../static/icon/logo.png" alt="logo">
+        <span>玖趣游戏盒子</span>
+    </div>
+    <div class="content">
+        <h4>孵蛋规则：</h4>
+        <p>1、未发现组无法孵蛋</p>
+        <p>2、同性无法孵蛋</p>
+        <p>3、不同蛋组无法孵蛋</p>
+        <p>4、母体决定种族</p>
+        <p>5、百变怪除外，2只百变怪无法孵蛋，但是百变怪可以和任何精灵孵蛋（无视性别和蛋组），孵出来的必定是非百变怪的那只</p>
+        <p>6、双方个体值最好属于互补，不要存在双方同一种个体值都不满</p>
+        <img src="../static/image/孵蛋个体.png" alt="孵蛋个体值">
+        <p>7、不变之石遗传性格，给父体携带</p>
+        <p>8、红线遗传个体值，给母体携带</p>
+    </div>
+    <hr>
+    <div class="content">
+        <h4>示例：</h4>
+        <p>孵出一只带“龙舞”技能的小火龙</p>
+        <p>1、找一只会“龙舞”，蛋组和喷火龙一样的精灵</p>
+        <p>2、如果喷火龙是男性，先和百变怪孵蛋，孵出一只母小火龙，遗传精灵如果性别不符，也是同样的操作</p>
+        <p>3、母喷火龙和公遗传精灵孵蛋，孵出一只带“龙舞”的小火龙</p>
+        <p>4、调整百变怪的性格，将性格调整成喷火龙需要的，给它戴上“不变之石”遗传性格</p>
+        <p>5、调整“百变怪”和“龙舞小火龙”的个体，让双方个体互补为6V，接着给小火龙带上红线</p>
+        <p>6、6、不停的孵蛋，不断孵出更好个体值的替代低个体值的做父母（请严格遵守个体互补原则）</p>
+        <p>7、直到孵出自己想要的个体为止，一般5v够用，不必强求6v，因为物攻和特攻满上1个就够了，依据种族值，放弃其中一个；像Y喷物攻就没用，满不满无所谓</p>
+    </div>
+    <div class="bottom_block"></div>
+
+    <!-- 底部导航栏 -->
+    <div class="container-fluid bottom_nav">
+        <a class="container-md base_nav" id="index_box" href="../index.html">
+            <img src="../static/icon/Home.png" class="nav_img" alt="手游">
+            <span class="nav_text">手游推荐</span>
+        </a>
+        <a class="container-md base_nav" id="minigame_box" href="../minigame.html">
+            <img src="../static/icon/minigame.png" class="nav_img" alt="小游戏">
+            <span class="nav_text">小游戏</span>
+        </a>
+        <div class="container-md base_nav" id="bottom_logo">
+            <img src="../static/icon/logo.png" class="nav_img" alt="logo">
+        </div>
+        <a class="container-md base_nav" id="strategy_box" href="../strategy.html">
+            <img src="../static/icon/strategy_selected.png" class="nav_img" alt="攻略">
+            <span class="nav_text">游戏攻略</span>
+        </a>
+        <a class="container-md base_nav" id="center_box" href="../center.html">
+            <img src="../static/icon/my.png" class="nav_img" alt="联系客服">
+            <span class="nav_text">联系客服</span>
+        </a>
+    </div>
+</body>
+
+</html>
