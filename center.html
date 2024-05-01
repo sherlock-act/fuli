@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>玖趣游戏盒子</title>
+    <!-- 引入Bootstrap CSS -->
+    <link rel="stylesheet" href="static/plugins/bootstrap-4.6.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/index.css">
+    <style>
+        #center_box span{
+            color: #C63520;
+        }
+
+        .content{
+            margin: 10px;
+        }
+
+        .content img{
+            width: 100%;
+            height: auto;
+        }
+
+        .tip{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<!-- 顶部导航栏 -->
+<div class="container-fluid top_nav">
+    <img class="top_logo" src="static/icon/logo.png" alt="logo">
+    <span>玖趣游戏盒子</span>
+</div>
+
+<div class="content">
+    <div class="card-body">
+      <h5 class="card-title">VIP客服</h5>
+      <p class="card-text">将二维码保存到相册，打开微信扫一扫</p>
+      <p class="card-text tip">领取福利请提供：游戏名+区服+角色名</p>
+    </div>
+    <img src="static/image/kefu_code2.png" class="card-img-bottom" alt="kefu">
+  </div>
+
+<!-- 底部导航栏 -->
+<div class="container-fluid bottom_nav">
+    <a class="container-md base_nav" id="index_box" href="index.html">
+        <img src="static/icon/Home.png"  class="nav_img" alt="手游">
+        <span class="nav_text">手游推荐</span>
+    </a>
+    <a class="container-md base_nav" id="minigame_box" href="minigame.html">
+        <img src="static/icon/minigame.png" class="nav_img" alt="小游戏">
+        <span class="nav_text">小游戏</span>
+    </a>
+    <div class="container-md base_nav" id="bottom_logo">
+        <img src="static/icon/logo.png" class="nav_img" alt="logo">
+    </div>
+    <a class="container-md base_nav" id="strategy_box" href="strategy.html">
+        <img src="static/icon/strategy.png" class="nav_img" alt="攻略">
+        <span class="nav_text">游戏攻略</span>
+    </a>
+    <a class="container-md base_nav" id="center_box" href="center.html">
+        <img src="static/icon/my_selected.png" class="nav_img" alt="联系客服">
+        <span class="nav_text">联系客服</span>
+    </a>
+</div>
+</body>
+</html>
