@@ -1,0 +1,142 @@
+body {
+    background-color: #F5F4F9;
+}
+
+.bottom_nav {
+    display: flex;
+    border-top: 1px solid #000000;
+    position: fixed;
+    /* 将元素固定在视口 */
+    bottom: 0;
+    /* 元素距离视口底部的距离 */
+    left: 0;
+    /* 元素距离视口左侧的距离 */
+    width: 100%;
+    /* 设置元素的宽度为100%，使其占据整个视口宽度 */
+    background-color: #f8f9fa;
+    /* 设置背景色，可选 */
+    padding: 10px;
+    /* 设置内边距，可选 */
+    box-sizing: border-box;
+    /* 确保宽度和高度包含内边距和边框 */
+    z-index: 999;
+    /* 确保元素在其它内容之上 */
+}
+
+.base_nav {
+    display: flex;
+    flex-direction: column;
+    /* 设置为列方向使元素垂直堆叠 */
+    align-items: center;
+    /* 垂直居中 */
+    justify-content: center;
+    /* 水平居中，但由于是列方向，这里其实不影响 */
+    text-align: center;
+    /* 确保文本在span中水平居中 */
+    padding: 0;
+}
+
+#bottom_logo img {
+    width: 70%;
+    height: auto;
+}
+
+.base_nav img {
+    width: 30px;
+    height: auto;
+}
+
+.base_nav span {
+    font-size: 14px;
+    color: black;
+}
+
+.top_nav {
+    background-color: #FFFFFF;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: sticky;
+    /* 设置元素为sticky定位 */
+    top: 0;
+    /* 当元素滚动到视口顶部时固定 */
+    /* background-color: #333; */
+    /* 背景色，可选 */
+    color: black;
+    /* 文本颜色，可选 */
+    padding: 10px 0;
+    /* 内边距，可选 */
+    z-index: 999;
+    /* 确保导航栏在其它内容之上 */
+}
+
+.top_nav img {
+    width: 70px;
+    height: auto;
+}
+
+.top_nav span {
+    display: block;
+    font-size: 30px;
+    line-height: 70px;
+    /* 行高与容器高度相同 */
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+li {
+    border-bottom: 1px solid #DCDCDC;
+    height: 80px;
+    margin: 0px;
+    padding: 0px;
+}
+
+li:last-child {
+    height: 70px;
+}
+
+.project {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.pic {
+    flex: 0 0 20%;
+}
+
+.pic img {
+    width: 60px;
+    height: 60px;
+}
+
+.project_cont{
+    flex: 0 0 40%;
+    display: flex;
+    height: 60px;
+    justify-content: left; 
+    align-items: center; 
+}
+
+.project_cont p{
+    margin: 0px;
+}
+
+.price{
+    flex: 0 0 40%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color:#000000;
+    height: 60px;
+    margin: 0px;
+}
+
+label{
+    margin: 0px;
+    color: #F19A49;
+}
